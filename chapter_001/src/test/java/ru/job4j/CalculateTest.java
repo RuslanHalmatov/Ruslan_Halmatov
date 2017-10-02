@@ -1,18 +1,22 @@
+/**
+* Test.
+*
+* @author Ruslan Halmatov (mailto:HalmatovJava@yandex.ru).
+* @version $Id$.
+* @since 0.1.
+*/
 package ru.job4j;
-
 import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 
-/**
-* Test.
-*
-* @author Ruslan Halmatov (mailto:HalmatovJava@yandex.ru)
-* @version $Id$
-* @since 0.1
-*/
 
+
+/**
+  *Класс {@code CalculateTest} используется для тестирование.
+  *объектов класса {@code Calculate}.
+*/
 public class CalculateTest {
 /**
 * Test echo.
