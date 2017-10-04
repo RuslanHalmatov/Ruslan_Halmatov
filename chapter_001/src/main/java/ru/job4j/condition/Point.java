@@ -34,7 +34,7 @@ public class Point {
 	 *@return возвращает истина,если точка лежит на графике функции и ложь в противном случае.
    */
    public boolean is(int a, int b) {
-	 return this.y == a * this.x + b ? true : false; // используя координаты точки и вычисления функции.
+	 return this.y == a * this.x + b; // используя координаты точки и вычисления функции.
    }
 
   /**
