@@ -19,18 +19,21 @@ public class MaxTest {
       Max maxoper = new Max();
       int first = 10;
       int second = 20;
-      int expect = 20;
-      int result = maxoper.max(first, second);
+	  int third = 30;
+      int expect = 30;
+      int result = maxoper.max(first, second, third);
       assertThat(result, is(expect));
       first = 38;
       second = 23;
+	  third  = 5;
       expect = 38;
-      result = maxoper.max(first, second);
+      result = maxoper.max(first, second, third);
       assertThat(result, is(expect));
       first = 11;
       second = 11;
+	  third  = 11;
       expect = 11;
-      result = maxoper.max(first, second);
+      result = maxoper.max(first, second, third);
       assertThat(result, is(expect));
   }
 

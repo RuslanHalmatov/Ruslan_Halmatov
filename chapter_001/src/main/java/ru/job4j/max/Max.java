@@ -17,4 +17,15 @@ public class Max {
 		return (first > second) ? first : second;
   }
 
+    /**
+    *Метод {@code max} находит наиболеешее из трех  параметров.
+    * первый: @param first и
+    *второй: @param second параметр.
+	*третий: @param third параметр.
+    *@return возвращает результат нахождения наибольшего из чисел.
+  */
+  public int max(int first, int second, int third) {
+		return max(first, max(second, third));
+  }
+
 }
