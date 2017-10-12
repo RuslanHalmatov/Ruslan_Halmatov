@@ -15,7 +15,6 @@ public class Paint {
   public String piramid(int h) {
 		StringBuilder builder = new StringBuilder();
 		int length = h + h - 1;
-		int end = length - 1;
 		int middle = length / 2;
 
 		for (int i = 0; i < h; i++) {
