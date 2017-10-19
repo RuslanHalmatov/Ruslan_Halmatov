@@ -19,7 +19,6 @@ public class RotateArray {
 		int temp = 0;
 		int secTemp = 0;
 		int end = array.length - 1;
-		secTemp = array[sumIndex][subsEnd];
 		for (int i = 0; i < (array.length / 2); i++) {
 
 			for (int j = 0; j < (array.length - 1 - i * 2); j++) {
