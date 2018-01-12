@@ -18,9 +18,9 @@ public class StringProcessing {
 		int subLength = sub.length();
 
 		boolean flag = false;
-		
+
 		char[] originArray = origin.toCharArray();
-	
+
 		char[] subArray = sub.toCharArray();
 
 		for (int i = 0; i < origin.length(); i++) {

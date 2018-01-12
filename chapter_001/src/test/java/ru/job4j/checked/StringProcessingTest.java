@@ -17,7 +17,7 @@ public class StringProcessingTest {
   @Test
   public void checkMethod() {
         StringProcessing stringFinder = new StringProcessing();
-		boolean result = stringFinder.contains("Привет", "иве");
+		boolean result = stringFinder.contains("используется для тестирования метода", "тир");
 		boolean expected = true;
         assertThat(result, is(expected));
   }
