@@ -33,7 +33,12 @@ public class StringProcessing {
 				} else if (j - i == subLength - 1) {
 
 					flag = true;
+					break;
 				}
+			}
+
+			if (flag) {
+				break;
 			}
 
 		}
