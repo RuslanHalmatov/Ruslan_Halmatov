@@ -1,8 +1,6 @@
 /**
-* Package for calculate task.
-*
 * @author Ruslan Halmatov (mailto:HalmatovJava@yandex.ru)
 * @version $Id$
-* @since 23.09.2017
+* @since 11.03.2018
 */
-package ru.job4j;
+package ru.job4j.tracker;
