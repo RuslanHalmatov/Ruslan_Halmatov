@@ -46,12 +46,14 @@ public class Tracker {
 	 * @return найденную заявку Item, в противном случае null.
      */
 	public Item findById(String id) {
+		Item result = null;
 	   for (Item current:items) {
 			if (current.getId() == id) {
-				return current;
+				result = current;
+				break;
 			}
 	   }
-	   return null;
+	   return result;
 	}
 	/**
      * Метод реализующий удаление заявки по идентификационному номеру.
@@ -100,12 +102,14 @@ public class Tracker {
 	 * @return индекс типа int, первого совпадения, в противном случае null.
      */
 	private int findIndexById(String id) {
+		int index = -1;
 		for (int i = 0; i < position; i++) {
 			if (items[i].getId() == id) {
-				return i;
+				index = i;
+				break;
 			}
 		}
-		return -1;
+		return index;
 	}
     /**
      * Метод реализующий генерацию идентификационного номера для заявки.
