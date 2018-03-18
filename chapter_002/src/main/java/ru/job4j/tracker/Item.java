@@ -31,6 +31,15 @@ public class Item {
 		setDescription(description);
 	}
 	/**
+     * Конструктор класса {@code Item}.
+	 * @param name - наименование заявки
+	 * @param description - описание заявки.
+     */
+	public Item(String name, String description) {
+		setName(name);
+		setDescription(description);
+	}
+	/**
      * Метод реализующий возврат значения Description заявки.
 	 * @return описание заявки типа String.
      */
