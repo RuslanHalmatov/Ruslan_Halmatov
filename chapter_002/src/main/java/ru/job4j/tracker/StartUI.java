@@ -109,6 +109,7 @@ public class StartUI {
      */
     private void editItem() {
         String id = this.input.ask("Введите id заявки :");
+		System.out.println(id + "  hu-----------------------------------------");
 		Item editedItem = this.tracker.findById(id);
 		String answer = this.input.ask("Введите  0 - редактирование наименования\n 1 - редактирование описания\n 2 - редактировать оба параметра");
 		if (answer.equals("0")) {
@@ -177,6 +178,6 @@ public class StartUI {
      * @param args используется для передачи значений в программу.
      */
     public static void main(String[] args) {
-        new StartUI(new ConsoleInput(), new Tracker()).init();
+     //   new StartUI(new ConsoleInput(), new Tracker()).init();
     }
 }

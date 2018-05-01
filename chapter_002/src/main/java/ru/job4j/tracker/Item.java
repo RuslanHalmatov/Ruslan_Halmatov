@@ -21,6 +21,11 @@ public class Item {
 	private String description;
 	/**
      * Конструктор класса {@code Item}.
+     */
+	public Item() {
+	}
+	/**
+     * Конструктор класса {@code Item}.
 	 * @param name - наименование заявки
 	 * @param description - описание заявки
 	 * @param id - идентификационный номер заявки.

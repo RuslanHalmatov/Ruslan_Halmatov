@@ -7,14 +7,14 @@ import java.util.Scanner;
 */
 public class ConsoleInput implements Input {
 	/**
-     * Объект для операций ввода.
-     */
+	* Объект для операций ввода.
+	*/
 	private Scanner sc = new Scanner(System.in);
 	/**
-     * Метод реализует вывод и ввод в консоль.
-	 * @param request параметр  используется для вывода в консоль текста для взаимодействия с пользователем
-	 * @return строку введенную пользователем.
-     */
+	* Метод реализует вывод и ввод в консоль.
+	* @param request параметр  используется для вывода в консоль текста для взаимодействия с пользователем
+	* @return строку введенную пользователем.
+	*/
 	public String ask(String request) {
 		System.out.println(request);
 		return sc.nextLine();
